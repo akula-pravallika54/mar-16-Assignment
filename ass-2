@@ -1,0 +1,24 @@
+
+s=input()
+l=list(s)
+x=[]
+o=[]
+e=[]
+m=[]
+n=len(o)
+for i in l:
+    x.append(int(i))
+for i in x:
+    if i%2==1:
+        o.append(i)
+    else:
+        e.append(i)
+o.insert(len(o)+1,' ')
+res=o+e
+for i in res:
+    print(i,end='')
+OUTPUT:
+1234567
+1357 246
+        
+        
