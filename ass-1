@@ -1,0 +1,16 @@
+s=input()
+l=list(s)
+x=[]
+res=[]
+for i in l:
+    x.append(int(i))
+for i in x:
+    if i not in res:
+        res.append(i)
+for i in res:
+    print(i,end='')
+ output=
+ 1115533
+ 153
+
+
